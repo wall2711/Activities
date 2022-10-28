@@ -1,0 +1,88 @@
+
+ body{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url(/img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card-container.card {
+    max-width: 350px;
+    padding: 50px 50px;
+}
+
+.btn {
+    font-weight: 700;
+    height: 36px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+
+.card {
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 0 auto 30px;
+    margin-top: 100px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img-card {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+
+.profile-name-card {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px 0 0;
+    min-height: 1em;
+}
+
+.reauth-email {
+    display: block;
+    line-height: 2;
+    margin-bottom: 10px;
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.form-signin input[type=email],
+.form-signin input[type=password],
+.form-signin input[type=text],
+.form-signin button {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    position: relative;
+    
+}
+
+.btn.btn-signin {
+    background-color: #009688;
+    padding: 0px;
+    font-weight: 700;
+    font-size: 14px;
+    height: 36px;
+    border: none;
+   
+}
+
+
+
+
